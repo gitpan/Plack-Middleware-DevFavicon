@@ -4,8 +4,10 @@
       "Fuji, Goro <gfuji@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.5",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.6.7",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -42,7 +44,7 @@
          "requires" : {
             "Imager" : "0",
             "Plack" : "0",
-            "perl" : "5.010001"
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -54,7 +56,7 @@
    "provides" : {
       "Plack::Middleware::DevFavicon" : {
          "file" : "lib/Plack/Middleware/DevFavicon.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -68,7 +70,7 @@
          "web" : "https://github.com/gfx/Plack-Middleware-DevFavicon"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Fuji, Goro <goro-fuji@cookpad.com>"
    ]
